@@ -103,7 +103,7 @@ h2 {
 
 /* task-3 text field */
 
-#name-input{
+#name-input {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
@@ -116,6 +116,7 @@ h2 {
   color: #2e2f42;
   margin: 24px 24px 16px 24px;
   padding: 16px 8px;
+  outline: none;
 }
 
 #name-input::placeholder {
@@ -124,11 +125,10 @@ h2 {
 
 #name-input:hover, #name-input:focus {
   border-color: #000;
-  outline: none;
 }
 
 #name-input:active {
-  border-color: #808080;;
+  border-color: #808080;
 }
 
 h1 {
@@ -139,4 +139,110 @@ h1 {
   letter-spacing: 0.04em;
   color: #2e2f42;
   margin: 0 24px 24px 24px;
+}
+
+/* task-4 form */
+
+.login-form {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-top: 8px;
+  outline: none;
+}
+
+.email-label {
+  margin-bottom: 8px;
+}
+
+.login-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.login-form button:hover, .login-form button:focus {
+  background: #6c8cff;
+}
+
+.login-form input:hover, .login-form input:focus {
+  border-color: #000;
+}
+
+.login-form input:active {
+  border-color: #808080;
+}
+
+/* task-5 viget */
+
+.widget {
+  padding: 100px 88px;
+  border-radius: 8px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+}
+
+.widget p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+
+.change-color:hover, .change-color:focus {
+  background-color: #6c8cff;
 }
